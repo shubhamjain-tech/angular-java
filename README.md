@@ -14,14 +14,19 @@ sudo systemctl enable mariadb
 sudo mysql_secure_installation
 sudo mysql -u root -p
 ```
-```sql
+# Go inside into databse 
+```bash
+ mysql -h <RDS-ENDPOINT> -u admin -p
+```
+# GO INside the databse run follwing comands
+```bash
 CREATE DATABASE springbackend;
 GRANT ALL PRIVILEGES ON springbackend.* TO 'username'@'localhost' IDENTIFIED BY 'your_password';
 ```
 
-### Import Database from SQL File
+### Exit form databse and run following command Import Database from SQL File
 ```bash
-sudo mysql -u username -p springbackend < springbackend.sql
+sudo mysql -h <RDS-ENDPOINT> -u username -p springbackend < springbackend.sql
 ```
 ```bash
 sudo mysql -u root -p
