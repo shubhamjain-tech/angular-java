@@ -58,4 +58,19 @@ mysql -h database-1.cxacw26ek87r.ap-south-1.rds.amazonaws.com -u admin -p
 after go inside the mysql-db, then use above commands to create table and all
 
 
+# All steps of Project
+
+step 1: 
+Create a DB using above steps mentioned in same readme file.
+Connect db to backend Go inside spring backend folder and check steps
+
+step 2: 
+Go in spring-backend folder Readme file follow all steps to create a backend continer.
+
+step 3 :
+Go in angular-frontend folder readme file and follow all steps to run frontend.
+
+
+
+
 
