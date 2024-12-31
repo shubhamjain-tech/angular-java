@@ -36,3 +36,17 @@ show databases;
 show tables;
 select * from tbl_workers;
 ```
+
+# Above step u can do manually for creating db or you can create RDS on aws console, and integrate your RDS to EC2. 
+# Step for Crating RDS 
+Select Remotely public access yes
+Self manage provide password for rds and username 
+Do not Select ec2 
+Connect to RDS to ec2  using CLI.  
+```bash
+mysql -h database-1.cxacw26ek87r.ap-south-1.rds.amazonaws.com -u admin -p
+```
+after go inside the mysql-db, then use above commands to create table and all
+
+
+
