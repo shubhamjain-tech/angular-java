@@ -1,3 +1,9 @@
+# For angular-frontend u can create Continer using below dockerfile, or u can run below commands to build artifact and after u run all commands u can get dist folder u can move that folder into s3 bucket and using static websitehosting steps, u can run frontend. 
+
+see the dist folder in Image
+![image](https://github.com/user-attachments/assets/7a4cdcaf-8f74-4a60-a622-6bf7074df1bb)
+
+
 # Angular Project Setup Guide
 
 This guide provides step-by-step instructions for setting up an Angular project from scratch on an Ubuntu machine.
@@ -76,3 +82,5 @@ EXPOSE 80
 
 # Start NGINX server when the container starts
 CMD ["nginx", "-g", "daemon off;"]
+```
+
