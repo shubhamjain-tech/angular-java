@@ -4,6 +4,15 @@ see the dist folder in Image
 ![image](https://github.com/user-attachments/assets/7a4cdcaf-8f74-4a60-a622-6bf7074df1bb)
 
 
+# Before run docker file or create a artifact for code, Do follwing steps tp connect frontend to backend
+Go to this location add your ec2 public-ip:8080/api/v1/workers url inside frontend/
+( /angular-java/angular-frontend/src/app/services/worker.service.ts ) 
+
+![image](https://github.com/user-attachments/assets/968b0c62-cc37-46c2-bef2-7236f0d5c36a)
+
+
+
+
 # Angular Project Setup Guide
 
 This guide provides step-by-step instructions for setting up an Angular project from scratch on an Ubuntu machine.
