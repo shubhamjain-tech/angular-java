@@ -52,10 +52,12 @@ click on create RDS
 ```bash
 mysql -h database-1.cxacw26ek87r.ap-south-1.rds.amazonaws.com -u admin -p
 ```
+after go inside the mysql-db, then use above commands to create table and all
+
 
 ![image](https://github.com/user-attachments/assets/fa1062ed-3a0f-4c23-8c0b-a499425d9202)
 
-after go inside the mysql-db, then use above commands to create table and all
+
 
 
 # All steps of Project
