@@ -1,4 +1,4 @@
-# Coonect db to backend 
+# Connect db to backend 
 
 Go to this location spring backend app conf database url path inside backend \
 ( /angular-java/spring-backend/src/main/resources/application.properties  )
