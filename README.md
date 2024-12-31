@@ -47,6 +47,8 @@ Do not Select ec2
 
 Connect to RDS to ec2  using CLI.  
 
+click on create RDS
+
 ```bash
 mysql -h database-1.cxacw26ek87r.ap-south-1.rds.amazonaws.com -u admin -p
 ```
