@@ -1,3 +1,15 @@
+# Configure db to backend 
+
+Go to this location spring backend app conf database url path inside backend \
+( /angular-java/spring-backend/src/main/resources/application.properties  )
+
+![image](https://github.com/user-attachments/assets/c417b0b8-1c35-4934-b892-2dc50b33456b)
+
+
+After do above configurations u can run follwing command manually or run dockerfile to create image and run continer.
+
+after continer will be running state Hit public url:8080/api/v1/workers  (to check your backend is working or not)
+
 # Installation Guide for Spring Backend Application in Ubuntu Instance
 
 This guide provides step-by-step instructions for setting up and running a Spring backend application on Ubuntu.
