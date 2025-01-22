@@ -18,8 +18,9 @@ Go to this location for connect your db to backend
 
 After do above configurations u can run follwing command manually for run backend or run dockerfile to create image and run continer for creating backend.
 
-after continer will be running state Hit public url:8080/api/v1/workers  (to check your backend is working or not)
+after backend continer will be running state Hit public url:8080/api/v1/workers  (to check your backend is working or not)
 
+ 
 # Installation Guide for Spring Backend Application in Ubuntu Instance
 
 This guide provides step-by-step instructions for setting up and running a Spring backend application on Ubuntu.
@@ -92,3 +93,17 @@ EXPOSE 8080
 # Command to run the application
 CMD ["java", "-jar", "target/spring-backend-v1.jar"]
 ```
+
+Note: If you wants to run backend on Kubernetes Follow following steps
+- Install kubectl on server
+- Install eksctl
+- Create cluster using command
+- Create a Docker image using above dockerfile
+- Push docker iamge on AWS-ECR
+- Create a Deployment.yml file (mentioned your docker image in file)
+- Create a service.yml file (user service type cluster IP or node port)
+- check your backend POD working or not
+- after backend pod will be running state Hit instance public ip:8080/api/v1/workers (to check your backend is working or not)
+
+  
+
