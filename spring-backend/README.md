@@ -1,4 +1,4 @@
-# Connect db to backend 
+# Connect RDS-DB to backend 
 
 Note: when u are created RDS then do this step
 Go to this location spring backend app conf database url path inside backend \
