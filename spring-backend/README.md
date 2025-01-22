@@ -16,7 +16,7 @@ Go to this location for connect your db to backend
 ![image](https://github.com/user-attachments/assets/19a7d086-f82a-4e36-bea7-cccb70385308)
 
 
-After do above configurations u can run follwing command manually or run dockerfile to create image and run continer.
+After do above configurations u can run follwing command manually for run backend or run dockerfile to create image and run continer for creating backend.
 
 after continer will be running state Hit public url:8080/api/v1/workers  (to check your backend is working or not)
 
