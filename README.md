@@ -45,14 +45,14 @@ Self manage provide password for rds and username
 
 Do not Select ec2 
 
-Connect to RDS to ec2  using CLI.  
-
 click on create RDS
 
+use follwing command for connect your RDS to EC2
+
 ```bash
-mysql -h database-1.cxacw26ek87r.ap-south-1.rds.amazonaws.com -u admin -p
+mysql -h <RDS-ENDPOINT> -u admin -p
 ```
-after go inside the mysql-db, then use this readme files commands to create table and all, All commands mentioned above.
+after go inside the mysql-db, then use this above readme files commands to create table and all, All commands mentioned above.
 
 
 ![image](https://github.com/user-attachments/assets/fa1062ed-3a0f-4c23-8c0b-a499425d9202)
