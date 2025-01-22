@@ -1,9 +1,15 @@
 # Connect db to backend 
 
+Note: when u are created RDS then do this step
 Go to this location spring backend app conf database url path inside backend \
-( /angular-java/spring-backend/src/main/resources/application.properties  )
+( /angular-java/spring-backend/src/main/resources/application.properties  ) 
 
 ![image](https://github.com/user-attachments/assets/c417b0b8-1c35-4934-b892-2dc50b33456b)
+
+
+# If you install mariadb directly on your server so do this configuration 
+
+![image](https://github.com/user-attachments/assets/19a7d086-f82a-4e36-bea7-cccb70385308)
 
 
 After do above configurations u can run follwing command manually or run dockerfile to create image and run continer.
