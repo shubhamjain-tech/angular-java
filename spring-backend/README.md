@@ -9,6 +9,10 @@ Go to this location spring backend app conf database url path inside backend \
 
 # If you install mariadb directly on your server so do this configuration 
 
+Go to this location for connect your db to backend
+( /angular-java/spring-backend/src/main/resources/application.properties  ) 
+
+
 ![image](https://github.com/user-attachments/assets/19a7d086-f82a-4e36-bea7-cccb70385308)
 
 
