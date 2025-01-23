@@ -18,7 +18,7 @@ Go to this location for connect your db to backend
 
 After do above configurations u can run follwing command manually for run backend or run dockerfile to create image and run continer for creating backend.
 
-after backend continer will be running state Hit public url:8080/api/v1/workers  (to check your backend is working or not)
+after backend continer will be running state Hit instance public-ip:8080/api/v1/workers  (to check your backend is working or not)
 
  
 # Installation Guide for Spring Backend Application in Ubuntu Instance
